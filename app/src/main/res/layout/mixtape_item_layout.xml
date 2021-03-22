@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/CoverSong"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_156637"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/playerJudul"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Judul"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <TextView
+            android:id="@+id/playerKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="keterangan"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
